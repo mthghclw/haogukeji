@@ -1,3 +1,79 @@
+/* 需求 */
+@media (max-width: 768px) {
+  .hg-need {
+    padding: 10px 0;
+  }
+}
+@media (min-width: 768px) {
+  .hg-need {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  .hg-need {
+    padding: 40px 0;
+  }
+}
+.hg-need h2 {
+  margin: 0 0 10px;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-need .hg-need-item h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hg-need .hg-need-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-need .hg-need-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-need .hg-need-item {
+    margin-top: 30px;
+  }
+}
+/* 平台整体框架及模块划分 */
+@media (max-width: 768px) {
+  .hg-module {
+    padding: 10px 0;
+  }
+}
+@media (min-width: 768px) {
+  .hg-module {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  .hg-module {
+    padding: 40px 0;
+  }
+}
+.hg-module h2 {
+  margin: 0 0 10px;
+  font-size: 1.75em;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hg-module .hg-module-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-module .hg-module-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-module .hg-module-item {
+    margin-top: 30px;
+  }
+}
 /* 我们的服务 */
 .hg-innovate {
   background-color: #fff;
@@ -9,6 +85,21 @@
 }
 .hg-innovate .hg-innovate-item {
   background-color: #fff;
+}
+@media (max-width: 768px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 30px;
+  }
 }
 .hg-innovate .hg-innovate-item h3 {
   font-size: 1.25em;
