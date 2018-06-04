@@ -1,26 +1,6 @@
 /* Banner图 */
 .hg-banner-news {
-    height: 500px;
     background: url(../images/banner_news.jpg) no-repeat center;
-    background-size: contain;
-
-    @media (max-width: 768px){
-
-        height: 180px;
-        
-    }
-
-    @media (min-width: 768px){
-
-        height: 250px;
-        
-    }
-
-    @media (min-width: 992px){
-
-        height: 300px;
-        
-    }
 }
 
 
@@ -28,6 +8,11 @@
 .hg-news {
     background-color: #f7f7f7;
     padding: 40px 0;
+
+    h2 {
+        margin: 0;
+        font-size: 1.75em;
+    }
     
     .hg-news-item {
         margin-top: 20px;
@@ -40,12 +25,6 @@
             font-weight: bold;
             font-size: 1.25em;
             color: rgb(51, 51, 51);
-
-            a {
-                &:hover {
-                    color: #383b61;
-                }
-            }
         }
 
         ul {
@@ -68,10 +47,8 @@
                     text-decoration: none;
                     font-size: 0.875em;
                     color: #333;
-
-
                     &:hover {
-                        color: #f00;
+                        color: #001f3f;
                     }
                 }
 

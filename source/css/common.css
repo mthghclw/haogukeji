@@ -34,6 +34,25 @@
     padding-top: 24px;
   }
 }
+/* Banner 图公共样式 */
+.hg-banner {
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .hg-banner {
+    height: 180px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-banner {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-banner {
+    height: 400px;
+  }
+}
 /* 站点底部样式 */
 .hg-footer {
   padding: 0 0 20px 0;

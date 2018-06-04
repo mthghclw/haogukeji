@@ -1,3 +1,7 @@
+/* banner 图 */
+.hg-banner-product {
+  background: url(../images/banner_product.jpg) no-repeat center;
+}
 /* 需求 */
 @media (max-width: 768px) {
   .hg-need {

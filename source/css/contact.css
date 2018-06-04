@@ -1,23 +1,6 @@
 /* Banner图 */
 .hg-banner-contact {
-  height: 500px;
-  background: url(../images/banner4.jpg) no-repeat center;
-  background-size: cover;
-}
-@media (max-width: 768px) {
-  .hg-banner-contact {
-    height: 180px;
-  }
-}
-@media (min-width: 768px) {
-  .hg-banner-contact {
-    height: 250px;
-  }
-}
-@media (min-width: 992px) {
-  .hg-banner-contact {
-    height: 300px;
-  }
+  background: url(../images/banner_contact.jpg) no-repeat center;
 }
 /* 联系方式 */
 .hg-address {

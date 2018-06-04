@@ -1,28 +1,15 @@
 /* Banner图 */
 .hg-banner-news {
-  height: 500px;
   background: url(../images/banner_news.jpg) no-repeat center;
-  background-size: contain;
-}
-@media (max-width: 768px) {
-  .hg-banner-news {
-    height: 180px;
-  }
-}
-@media (min-width: 768px) {
-  .hg-banner-news {
-    height: 250px;
-  }
-}
-@media (min-width: 992px) {
-  .hg-banner-news {
-    height: 300px;
-  }
 }
 /* 联系方式 */
 .hg-news {
   background-color: #f7f7f7;
   padding: 40px 0;
+}
+.hg-news h2 {
+  margin: 0;
+  font-size: 1.75em;
 }
 .hg-news .hg-news-item {
   margin-top: 20px;
@@ -35,9 +22,6 @@
   font-weight: bold;
   font-size: 1.25em;
   color: #333333;
-}
-.hg-news .hg-news-item h3 a:hover {
-  color: #383b61;
 }
 .hg-news .hg-news-item ul {
   margin: 0;
@@ -59,7 +43,7 @@
   color: #333;
 }
 .hg-news .hg-news-item ul li a:hover {
-  color: #f00;
+  color: #001f3f;
 }
 /* 活动回顾 */
 .hg-activity {
