@@ -1,0 +1,24 @@
+{
+  "name": "haogukeji",
+  "description": "好谷科技企业网站",
+  "main": "app.js",
+  "authors": [
+    "陈老师"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "前端项目"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}

@@ -1,0 +1,33 @@
+/* 我们的服务 */
+.hg-service {
+  background-color: #fff;
+  text-align: center;
+}
+.hg-service h2 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+.hg-service .hg-service-item {
+  background-color: #fff;
+  /* 
+        @media (min-width: 768px) {
+            margin: 8px auto 0;
+        }
+
+        @media (min-width: 992px) {
+ 
+            margin: 10px auto 0;
+
+        }
+
+        @media (min-width: 1200px) {
+            margin-top: 20px;
+
+        } */
+}
+.hg-service .hg-service-item h3 {
+  font-size: 1.25em;
+}
+.hg-service .hg-service-item p {
+  text-align: left;
+}

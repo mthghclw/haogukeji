@@ -1,0 +1,88 @@
+/* Banner图 */
+.hg-banner-contact {
+    height: 500px;
+    background: url(../images/banner4.jpg) no-repeat center;
+    background-size: cover;
+
+    @media (max-width: 768px){
+
+        height: 180px;
+        
+    }
+
+    @media (min-width: 768px){
+
+        height: 250px;
+        
+    }
+
+    @media (min-width: 992px){
+
+        height: 300px;
+        
+    }
+}
+
+
+/* 联系方式 */
+.hg-address {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    
+
+    h2 {
+        margin: 0;
+        font-size: 1.75em;
+        text-align: center;
+    }
+
+
+    .hg-address-item {
+        margin-top: 30px;
+        padding: 50px 20px;
+        border: 1px solid #dbdbdb;
+        background-color: #fff;
+
+        h3 {
+            font-weight: bold;
+            font-size: 1.25em;
+        }
+
+    }
+    
+}
+
+/* 人才招聘 */
+.hg-recruit {
+    .hg-address;
+    background-color: #fff;
+
+    h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 1.75em;
+    }
+ 
+    .hg-recruit-item {
+        text-align: center;
+        color: #fff;
+        margin-top: 30px;
+        padding: 60px 20px;
+
+        &.hg-recruit-campus {
+            background-color: #05814b;
+        }
+
+        &.hg-recruit-social {
+            background-color: #055481;
+        }
+        
+
+        h3 {
+            font-size: 1.25em;
+            font-weight: bold;
+        }
+    }
+    
+}
+

@@ -1,0 +1,59 @@
+/* 企业文化 */
+.hg-introduce {
+  background-color: #fff;
+  padding: 40px 0;
+}
+.hg-introduce h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-introduce .hg-introduce-item {
+  margin-top: 30px;
+  background-color: #fff;
+}
+/* 企业文化 */
+.hg-idea {
+  background-color: #fff;
+  padding: 40px 0;
+}
+.hg-idea h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-idea .hg-idea-item {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.hg-idea .hg-idea-item h3 {
+  font-size: 1.25em;
+}
+/* 发展历程 */
+.hg-history {
+  background-color: #fff;
+  padding: 40px 0;
+}
+.hg-history h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-history .hg-history-item {
+  margin-top: 30px;
+  background-color: #fff;
+}
+/* 战略合作 */
+.hg-partner {
+  background-color: #fff;
+  padding: 40px 0;
+}
+.hg-partner h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-partner .hg-partner-item {
+  margin-top: 30px;
+  background-color: #fff;
+}

@@ -1,0 +1,21 @@
+/* 我们的服务 */
+.hg-innovate {
+  background-color: #fff;
+  text-align: center;
+}
+.hg-innovate h2 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+.hg-innovate .hg-innovate-item {
+  background-color: #fff;
+}
+.hg-innovate .hg-innovate-item h3 {
+  font-size: 1.25em;
+}
+.hg-innovate .hg-innovate-item img {
+  margin: 0 auto;
+}
+.hg-innovate .hg-innovate-item p {
+  text-align: left;
+}

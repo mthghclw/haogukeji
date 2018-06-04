@@ -1,0 +1,58 @@
+/* 站点头部的样式 */
+.navbar-default {
+  background-color: #fff;
+  border: none;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+}
+.hg-logo {
+  width: 160px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .hg-logo {
+    width: 77px;
+    height: 24px;
+  }
+  .navbar-brand {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-logo {
+    width: 97px;
+    height: 30px;
+  }
+  .navbar-brand {
+    padding-top: 24px;
+  }
+}
+/* 站点底部样式 */
+.hg-footer {
+  padding: 0 0 20px 0;
+  background-color: #383b61;
+}
+.hg-footer .hg-footer-link h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+}
+.hg-footer .hg-footer-link ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hg-footer .hg-footer-link ul li {
+  padding: 4px 0;
+}
+.hg-footer .hg-footer-link ul li a {
+  font-size: 0.875em;
+  color: #fff;
+}

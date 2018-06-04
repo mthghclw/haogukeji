@@ -1,0 +1,83 @@
+/* Banner图 */
+.hg-banner-news {
+  height: 500px;
+  background: url(../images/banner_news.jpg) no-repeat center;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .hg-banner-news {
+    height: 180px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-banner-news {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-banner-news {
+    height: 300px;
+  }
+}
+/* 联系方式 */
+.hg-address {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+.hg-address h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-address .hg-address-item {
+  margin-top: 30px;
+  padding: 50px 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+}
+.hg-address .hg-address-item h3 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+/* 人才招聘 */
+.hg-recruit {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  background-color: #fff;
+}
+.hg-recruit h2 {
+  margin: 0;
+  font-size: 1.75em;
+  text-align: center;
+}
+.hg-recruit .hg-address-item {
+  margin-top: 30px;
+  padding: 50px 20px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+}
+.hg-recruit .hg-address-item h3 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.hg-recruit h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.75em;
+}
+.hg-recruit .hg-recruit-item {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  padding: 60px 20px;
+}
+.hg-recruit .hg-recruit-item.hg-recruit-campus {
+  background-color: #05814b;
+}
+.hg-recruit .hg-recruit-item.hg-recruit-social {
+  background-color: #055481;
+}
+.hg-recruit .hg-recruit-item h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
